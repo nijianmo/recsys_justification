@@ -3,10 +3,10 @@ This is the code for our EMNLP 19' work
 - Justifying recommendations using distantly-labeled reviews and fined-grained aspects, Jianmo Ni, Jiacheng Li, Julian McAuley, Empirical Methods in Natural Language Processing (EMNLP) 2019.
 
 This repo follows the following hierarchy:
+```
 recsys_justification
 |---reference2seq
 |---acmlm
-
 ```
 
 ### reference2seq
