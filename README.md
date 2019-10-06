@@ -5,9 +5,13 @@ This is the code for our EMNLP 19' work
 This repo follows the following hierarchy:
 ```
 recsys_justification
+|---justitication_classifier
 |---reference2seq
 |---acmlm
 ```
+
+### justification classifier 
+This is the fine-tuned BERT model on the labeled justification data we provided. You can simply train the model via `run.sh` and conduct inference over any unlabeled data using `predict.sh`, after you change the data loader correspondinly in the python file.
 
 ### reference2seq
 This is the proposed reference2seq model.
@@ -16,9 +20,9 @@ This is the proposed reference2seq model.
 This is the proposed aspect-conditional masked language model (acmlm).
 
 ### Data
-- 2000 labeled data that includes a binary label for each element discourse unit (EDU) in reviews.
+* 2000 labeled data that includes a binary label for each element discourse unit (EDU) in reviews.
  - [Download](http://deepyeti.ucsd.edu/jianmo/recsys_justification/label_data.csv)
-- Distantly labeled dataset derived from the Yelp and Amazon Clothing dataset. Each line of the json file includes an EDU from a review and the fine-grained aspects convered in it.
+* Distantly labeled dataset derived from the Yelp and Amazon Clothing dataset. Each line of the json file includes an EDU from a review and the fine-grained aspects convered in it.
  - [Download Yelp](http://deepyeti.ucsd.edu/jianmo/recsys_justification/yelp_filter_flat_positive.large.json)
  - [Download Amazon Clothing](http://deepyeti.ucsd.edu/jianmo/recsys_justification/cloth_filter_flat_positive.large.json)
 
