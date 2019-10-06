@@ -17,10 +17,10 @@ This is the proposed aspect-conditional masked language model (acmlm).
 
 ### Data
 - 2000 labeled data that includes a binary label for each element discourse unit (EDU) in reviews.
-[Download](deepeti.ucsd.edu/jianmo/recsys_justification/label_data.csv)
+-- [Download](http://deepeti.ucsd.edu/jianmo/recsys_justification/label_data.csv)
 - Distantly labeled dataset derived from the Yelp and Amazon Clothing dataset. Each line of the json file includes an EDU from a review and the fine-grained aspects convered in it.
-[Download Yelp](deepeti.ucsd.edu/jianmo/recsys_justification/yelp_filter_flat_positive.large.json)
-[Download Amazon Clothing](deepeti.ucsd.edu/jianmo/recsys_justification/cloth_filter_flat_positive.large.json)
+-- [Download Yelp](http://deepeti.ucsd.edu/jianmo/recsys_justification/yelp_filter_flat_positive.large.json)
+-- [Download Amazon Clothing](http://deepeti.ucsd.edu/jianmo/recsys_justification/cloth_filter_flat_positive.large.json)
 
 ### Requirements
 - PyTorch=0.4
