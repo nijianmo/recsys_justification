@@ -20,11 +20,11 @@ This is the proposed reference2seq model.
 This is the proposed aspect-conditional masked language model (acmlm).
 
 ### Data
-* 2000 labeled data that includes a binary label for each element discourse unit (EDU) in reviews.
- - [Download](http://deepyeti.ucsd.edu/jianmo/recsys_justification/label_data.csv)
+* 2000 labeled data that includes a binary label for each element discourse unit (EDU) in reviews. You can find it under `justification_classifier`.
 * Distantly labeled dataset derived from the Yelp and Amazon Clothing dataset. Each line of the json file includes an EDU from a review and the fine-grained aspects convered in it.
- - [Download Yelp](http://deepyeti.ucsd.edu/jianmo/recsys_justification/yelp_filter_flat_positive.large.json)
- - [Download Amazon Clothing](http://deepyeti.ucsd.edu/jianmo/recsys_justification/cloth_filter_flat_positive.large.json)
+    - [Download Yelp](http://deepyeti.ucsd.edu/jianmo/recsys_justification/data/yelp_filter_flat_positive.large.json)
+    - [Download Amazon Clothing](http://deepyeti.ucsd.edu/jianmo/recsys_justification/data/cloth_filter_flat_positive.large.json)
+
 
 ### Requirements
 - PyTorch=0.4
