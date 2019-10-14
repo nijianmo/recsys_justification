@@ -11,10 +11,12 @@ recsys_justification
 ```
 
 ### justification classifier 
-This is the fine-tuned BERT model on the labeled justification data we provided. You can simply train the model via `run.sh` and conduct inference over any unlabeled data using `predict.sh`, after you change the data loader correspondinly in the python file.
+This is the fine-tuned BERT model that used to train on the labeled justification data. You can simply train the model via `run.sh` and conduct inference over any unlabeled data using `predict.sh`, after you change the data loader correspondingly in the python file. We also provide a pre-trained model here.
+	- [bert_config.json](http://deepyeti.ucsd.edu/jianmo/recsys_justification/model/justification_classifier/bert_config.json). 
+	- [pytorch_model.bin](http://deepyeti.ucsd.edu/jianmo/recsys_justification/model/justification_classifier/pytorch_model.bin). 
 
 ### reference2seq
-This is the proposed reference2seq model.
+This is the proposed reference2seq model. It contains files for data processing and model training/evaluation.
 
 ### acmlm
 This is the proposed aspect-conditional masked language model (acmlm).
@@ -24,6 +26,10 @@ This is the proposed aspect-conditional masked language model (acmlm).
 * Distantly labeled dataset derived from the Yelp and Amazon Clothing dataset. Each line of the json file includes an EDU from a review and the fine-grained aspects convered in it.
     - [Download Yelp](http://deepyeti.ucsd.edu/jianmo/recsys_justification/data/yelp_filter_flat_positive.large.json)
     - [Download Amazon Clothing](http://deepyeti.ucsd.edu/jianmo/recsys_justification/data/cloth_filter_flat_positive.large.json)
+
+
+### Newly released Amazon product review dataset.
+We will soon release a new version of the Amazon product review dataset which increases the reviews in the period from 2014~2018!
 
 
 ### Requirements
