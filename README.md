@@ -11,7 +11,7 @@ recsys_justification
 ```
 
 ### Newly released Amazon product review dataset.
-We have released a new version of the Amazon review dataset [link](https://nijianmo.github.io/amazon/index.html) which includes more and newer reviews (i.e. reviews in the range of 2014~2018)! Welcome to play with the dataset and do interesting research! 
+We have released a new version of the [Amazon review dataset](https://nijianmo.github.io/amazon/index.html) which includes more and newer reviews (i.e. reviews in the range of 2014~2018)! Welcome to play with the dataset and do interesting research! 
 
 
 ### justification classifier 
