@@ -34,6 +34,7 @@ This is the proposed aspect-conditional masked language model (acmlm).
 
 ### Requirements
 - PyTorch=0.4
+- pytorch-pretrained-bert
 
 Please cite our paper if you find the data and code helpful, thanks!
 ```
